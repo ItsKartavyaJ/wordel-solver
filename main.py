@@ -2,7 +2,7 @@ import pandas as pd
 import nltk
 from nltk.corpus import words
 
-# nltk.download('words')
+nltk.download('words')
 
 # Get the list of valid words
 word_list = words.words()
